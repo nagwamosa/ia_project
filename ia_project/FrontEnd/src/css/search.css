@@ -1,0 +1,44 @@
+/* 
+.background-container{
+  background-color: white;
+  
+}
+.image-container {
+    position: relative;
+    width: fit-content;
+
+  }
+  */
+  .search-form {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    transform: translate(-30%, -3%);
+    z-index: 1;
+    width: 10%;
+    max-width: 200px;
+    /* display: inline-flex; */
+    align-items: center;
+  }
+  .search-button {
+    background-color: #4c93af;
+    border: none;
+    color: white;
+    padding: 1px 2px;
+    text-align:end;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px; 
+   
+  }
+
+   
+   .image-container {
+    background-image: url('../css/2.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
